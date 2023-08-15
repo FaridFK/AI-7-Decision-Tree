@@ -1,0 +1,11 @@
+usia_aset;nilai_saing;jenis;keuntungan
+Lama;Ada;Software;Menurun
+Lama;Tidak Ada;Software;Menurun
+Lama;Tidak Ada;Hardware;Menurun
+Tengah;Ada;Software;Menurun
+Tengah;Ada;Hardware;Menurun
+Tengah;Tidak Ada;Hardware;Meningkat
+Tengah;Tidak Ada;Software;Meningkat
+Baru;Ada;Software;Meningkat
+Baru;Tidak Ada;Hardware;Meningkat
+Baru;Tidak Ada;Software;Meningkat

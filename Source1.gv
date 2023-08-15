@@ -1,0 +1,17 @@
+digraph Tree {
+node [shape=box, style="filled", color="black", fontname="helvetica"] ;
+edge [fontname="helvetica"] ;
+0 [label="usia_aset <= 0.5\nsamples = 8\nvalue = [4, 4]\nclass = A", fillcolor="#ffffff"] ;
+1 [label="samples = 2\nvalue = [2, 0]\nclass = A", fillcolor="#e58139"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label="nilai_saing <= 0.5\nsamples = 6\nvalue = [2, 4]\nclass = B", fillcolor="#9ccef2"] ;
+0 -> 2 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+3 [label="samples = 3\nvalue = [0, 3]\nclass = B", fillcolor="#399de5"] ;
+2 -> 3 ;
+4 [label="usia_aset <= 1.5\nsamples = 3\nvalue = [2, 1]\nclass = A", fillcolor="#f2c09c"] ;
+2 -> 4 ;
+5 [label="samples = 1\nvalue = [0, 1]\nclass = B", fillcolor="#399de5"] ;
+4 -> 5 ;
+6 [label="samples = 2\nvalue = [2, 0]\nclass = A", fillcolor="#e58139"] ;
+4 -> 6 ;
+}
